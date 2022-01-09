@@ -268,13 +268,13 @@ footer{
     background-position: center;
     color: black ;
     text-shadow: black;
-    font-size: 21px;
+    font-size: 19px;
     text-align:left;
 }
 #contenidoformulario input{ 
     background-color: rgb(15, 14, 12); 
     color:#a8a8a8;
-    width: 200px; 
+    /* width: 200px; */ 
     height: 35px; 
     border-radius: 10px;  
     border-width: 1px;  
@@ -286,14 +286,16 @@ footer{
 #contenidoformulario textarea{ 
     background-color: rgb(15, 14, 12); 
     color:#a8a8a8;
-    width: 200px; 
+    width:150px;
+    /* width: 200px; */ 
     height: 40px; 
     border-radius: 10px;  
     border-width: 1px; 
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 10px; 
-    padding-top: 20px; 
+    padding-top: 10px; /* 20px */
+    font-size: 15px;
     display: block;
 } 
 #contenidoformulario label{
@@ -310,13 +312,18 @@ footer{
     border-width: 1px; 
     margin-top: 10px;  
     padding-left: 10px;
-    margin-bottom: 35px; 
+    margin-bottom: 5px; /* antes 25px */
+    font-size: 17px; /* antes no tenia */
     text-align: center;
     display: inline-block;
     cursor: pointer;
 }
+#contenidoformulario p {
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
 #contenidoformulario .botones input{
-    margin: 25px;
+    margin: 15px;
     height: 50px;
     width: 80px;
     border-radius:20px;
@@ -473,17 +480,17 @@ footer{
         padding-left: 70px; 
         padding-right: 70px; 
         padding-bottom: 40px;
-        font-size: 35px;
+        font-size: 30px;
     }
     #contenidoformulario input{ 
-        width: 430px; 
+        width: 330px; /* antes 430 */
         height: 55px; 
         font-size: 20px;
     }
     #contenidoformulario textarea{ 
-        width: 430px; 
+        width: 330px; /* antes 430 */
         height: 55px;   
-        padding-top: 25px; 
+        padding-top: 15px; /* antes 25 */
         font-size: 20px;
     } 
     #contenidoformulario select{
@@ -530,7 +537,7 @@ footer{
         margin: 20px;
     }
     #contenidoformulario{
-        font-size: 37px;
+        font-size: 30px;
     }
     #contenidoformulario .botones input{
         width: 150px;
