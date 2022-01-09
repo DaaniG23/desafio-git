@@ -173,7 +173,7 @@ footer{
 }
 /* pag-menu */
 #fondomenu{
-    background-image: url(./img/hamburguesa.jpg);
+    background-image: url(../img/hamburguesa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -190,7 +190,7 @@ footer{
 }
 /* pag-bebidas */
 #bebidas{
-    background-image: url(./img/bannerbis.jpg);
+    background-image: url(../img/bannerbis.jpg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
