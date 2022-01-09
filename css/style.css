@@ -10,7 +10,7 @@
 #grid-container {
     display: grid;
     height: 100vh;
-    grid-template-rows: 170px 90px 700px auto;
+    /* grid-template-rows: 170px 90px 700px auto; */
     grid-template-areas:
     "header"
     "horarios"
@@ -34,10 +34,10 @@ header h1{
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px; 
 }
-.nav-item {
+.nav-items {
     display: inline-block;
 }
-.nav-link {
+.nav-links {
     color: black;
     font-weight: bold;
     font-size: 20px;
@@ -55,6 +55,10 @@ section{
 body{
     background-color: rgb(15, 14, 12);
     font-family: 'Oswald', sans-serif;
+    color: #a8a8a8;
+}
+main, article, section, #grid-container, footer {
+    background-color: rgb(15, 14, 12);
     color: #a8a8a8;
 }
 #horarios .titulo{
@@ -150,10 +154,12 @@ footer{
     height: 100px;
     width: 120px;
     margin: 2px;
+    background-color: rgb(15, 14, 12);
 }
 #ubicaciones h2{
     font-size: 19px;
     margin-left: 20px;
+    background-color: rgb(15, 14, 12);
 }
 #ubicaciones h4{
     text-align: center;
@@ -323,7 +329,7 @@ footer{
 @media screen and (min-width: 768px){
     #grid-container{
         margin:auto;
-        grid-template-rows: 250px 150px 1000px auto;
+        /* grid-template-rows: 250px 150px 1000px auto; */
         grid-template-areas: 
         "header"
         "horarios"
@@ -338,10 +344,10 @@ footer{
         margin:50px;
         margin-right: 0px;
     }
-    .nav-item{
+    .nav-items{
         margin-right: 10px;
     }
-    .nav-link{
+    .nav-links{
         padding-top:20px;
         font-size: 30px;
     }
