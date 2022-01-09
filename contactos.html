@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="./img/logo_2.png">
+    <!-- <link rel="stylesheet" href="formulario.css"> -->
+      <!-- css -->
+      <link rel="stylesheet" href="./css/style.css">
+          <!-- letras -->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="grid-container">
+    <header>
+        <div>
+            <h1>La Choppera Loca</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Inicio</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="./sucursales.html" class="nav-link">Sucursales</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="./menu.html" class="nav-link">Menú</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="./bebidas.html" class="nav-link">Bebidas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contactos.html" class="nav-link">Contacto</a>
+                </li> 
+            </ul>
+        </nav>
+    </header>
+<main>
+    <form action="" method="get"enctype="text">
+        <div id="formulario">
+        <div class="titulos">      
+            <h2><strong> Formulario de contacto</h2></strong>
+            <h3><em>Deja tu comentario y a la brevedad nos comunicaremos</h3></em>      
+        </div>
+    </div>
+        <div id="contenidoformulario"> 
+            <label for="name">Nombre *</label>
+                <input type="text" id="name" placeholder="Escriba su nombre"required>
+            <label for="email">Email *</label>
+                <input type="email" id="email" placeholder="Ingrese su correo" required>
+            <label for="celphone">Celular</label>
+                <input type="celphone" id="Celular" placeholder="Ingrese su telefono">  
+            <label for="comentario">Comentarios *</label>
+                <textarea name="comentario" id="comentario" placeholder="Deje aqui su comentario..."required></textarea>
+            <label for="tipo comentario">Motivo</label>
+                <select name="mensaje" id="comentario">
+                    <option value="Reserva">Reserva</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="comentario"selected>Comentario</option>
+                </select>
+                    <p>Deseo recibir las novedades <input type="checkbox" name="acepta"></p>
+                    <p>* Los campos son obligatorios.</p> 
+        <div class="botones">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Vaciar">
+        </div>  
+        </div>
+    </section>
+    </form>
+<hr>
+<footer id="pie">
+    <!-- <div class="footer-line"></div> -->
+    <img src="./img/logo_2.png" alt="Logo">
+        <a class="flex-item" href="mail">lachopperaloca@gmail.com
+        </a>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3286438085943!2d-58.395517385195475!3d-34.595850264587924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabde1df01bd%3A0x59fc6e926c4505ee!2sAv.%20Santa%20Fe%20%26%20Av.%20Callao%2C%20C1061%20CABA!5e0!3m2!1ses!2sar!4v1638038021077!5m2!1ses!2sar">
+            </iframe>
+</footer>
+</main>
+</body>
+</html>
