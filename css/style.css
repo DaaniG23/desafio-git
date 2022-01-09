@@ -126,6 +126,12 @@ footer{
     padding-top:5px;
     padding-bottom: 20px;
     border: hidden;
+    transition: all 1s;
+}
+#pie iframe:hover{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(orangered,#dbca34)
 }
 /* pag-sucursales */
 #locales h2{
