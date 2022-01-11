@@ -184,6 +184,13 @@ footer{
     margin: 15px;
 }
 /* pag-menu */
+.card {
+    text-align: center;
+    margin-left: 20px;
+}
+.card-body {
+    background-color: rgb(15, 14, 12);
+}
 #fondomenu{
     background-image: url(../img/hamburguesa.jpg);
     background-repeat: no-repeat;
@@ -192,7 +199,7 @@ footer{
     margin-bottom: 40px;
 }
 #fondomenu div{
-    margin-top: 50px;
+    margin-top: 30px; /* 50px */
     display: flex;
     justify-content: center;
 }
@@ -201,6 +208,9 @@ footer{
     height: 600px;
 }
 /* pag-bebidas */
+.navbar a {
+    font-size: 30px;
+    }
 #bebidas{
     background-image: url(../img/bannerbis.jpg);
     background-position: left;
@@ -251,10 +261,10 @@ footer{
     font-size: 16px;
     padding-bottom: 12px;
 }
-#contenidoformulario div{
+/* #contenidoformulario div{
     display: flex;
     justify-content: center;
-}
+} */
 #contenidoformulario{
     width: 220px; 
     height: 650px;
@@ -318,11 +328,19 @@ footer{
     display: inline-block;
     cursor: pointer;
 }
+.botones button{
+    width: 70px;
+    height: 35px;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
 #contenidoformulario p {
     margin-bottom: 0px;
     margin-top: 4px;
 }
-#contenidoformulario .botones input{
+/* #contenidoformulario .botones input{
     margin: 15px;
     height: 50px;
     width: 80px;
@@ -332,7 +350,7 @@ footer{
     padding: 3px;
     font-size: 16px;
     border: 2px solid;
-}
+} */
 @media screen and (min-width: 768px){
     #grid-container{
         margin:auto;
@@ -431,15 +449,26 @@ footer{
         margin-right: 30px;
     }
     /* menu-pag */
+    .card {
+        margin-left: 230px;
+        vertical-align: middle;
+    }
     #fondomenu img{
         width: 500px;
         height: 850px;
     }
     #fondomenu div{
-        margin-top: 80px;
+        margin-top: 30px;
         margin-bottom: 20px;
     }
     /* bebidas-pag */
+    .navbar a {
+        font-size: 60px;
+    }
+    .navbar img{
+         width: 70px; 
+        height: 74px; 
+    }
     #bebidas{
         background-position: left;
     }
@@ -499,13 +528,21 @@ footer{
         margin-top: 30px; 
         font-size: 20px; 
     }
-    #contenidoformulario .botones input{
+    .botones button{
+        width: 100px;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 12px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    /* #contenidoformulario .botones input{
         width: 130px;
         height: 70px;
         background-color: white;
         color: black;
         font-size: 30px;
-    }
+    } */
 }
 @media screen and (min-width: 1024px){
     /* pag-sucursales */
@@ -521,11 +558,23 @@ footer{
         margin-right: 30px;
     }
     /* pag-menu */
+    .card {
+        margin-left: 50vh;
+        vertical-align: middle;
+        
+    }
     #fondomenu img{
         width: 600px;
         height: 800px;
     }
     /* pag-bebidas */
+    .navbar a {
+        font-size: 80px;
+    }
+    .navbar img{
+         width: 80px; 
+        height: 84px; 
+    }
     #bebidas{
         background-position: top-left;
     }
@@ -539,10 +588,21 @@ footer{
     #contenidoformulario{
         font-size: 30px;
     }
-    #contenidoformulario .botones input{
+    #contenidoformulario input{ 
+        width: 330px; /* antes 430 */
+        height: 55px; 
+        font-size: 20px;
+    }
+    /* #contenidoformulario .botones input{
         width: 150px;
         height: 65px;
         font-size: 30px;
+    } */
+    .botones button{
+        width: 130px;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 15px;
     }
 }
    /*  #pie .footer-line{
