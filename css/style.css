@@ -186,7 +186,6 @@ footer{
 /* pag-menu */
 .card {
     text-align: center;
-    margin-left: 20px;
 }
 .card-body {
     background-color: rgb(15, 14, 12);
@@ -449,10 +448,6 @@ footer{
         margin-right: 30px;
     }
     /* menu-pag */
-    .card {
-        margin-left: 230px;
-        vertical-align: middle;
-    }
     #fondomenu img{
         width: 500px;
         height: 850px;
@@ -558,11 +553,6 @@ footer{
         margin-right: 30px;
     }
     /* pag-menu */
-    .card {
-        margin-left: 50vh;
-        vertical-align: middle;
-        
-    }
     #fondomenu img{
         width: 600px;
         height: 800px;
